@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "669550937174",
+    "project_id": "fairgo3-7e066",
+    "storage_bucket": "fairgo3-7e066.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669550937174:android:c4154ca530f0728e3567f7",
+        "android_client_info": {
+          "package_name": "haveFun.inThis.onlineGame.goFair"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm6LULPxewigL7pocyRn4Ae92Qiib3Trg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

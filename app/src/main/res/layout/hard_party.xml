@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/all_background">
+
+    <View
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/back_button"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/rounded_button_ripple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"/>
+
+    <TextView
+        android:id="@+id/partyNumber"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/party_text_background"
+        android:gravity="center"
+        android:text="@string/party_number"
+        app:layout_constraintBottom_toBottomOf="@+id/backButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backButton"
+        tools:ignore="TextSizeCheck" />
+
+    <GridLayout
+        android:id="@+id/partyElements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:columnCount="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton">
+
+        <View
+            android:id="@+id/partyElement1"
+            android:layout_width="101dp"
+            android:layout_height="101dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/element_hidden"
+            android:clickable="true"
+            android:focusable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:id="@+id/partyElement2"
+            android:layout_width="101dp"
+            android:layout_height="101dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/element_hidden"
+            android:clickable="true"
+            android:focusable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:id="@+id/partyElement3"
+            android:layout_width="101dp"
+            android:layout_height="101dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/element_hidden"
+            android:clickable="true"
+            android:focusable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:id="@+id/partyElement4"
+            android:layout_width="101dp"
+            android:layout_height="101dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/element_hidden"
+            android:clickable="true"
+            android:focusable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:id="@+id/partyElement5"
+            android:layout_width="101dp"
+            android:layout_height="101dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/element_hidden"
+            android:clickable="true"
+            android:focusable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:id="@+id/partyElement6"
+            android:layout_width="101dp"
+            android:layout_height="101dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/element_hidden"
+            android:clickable="true"
+            android:focusable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:id="@+id/partyElement7"
+            android:layout_width="101dp"
+            android:layout_height="101dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/element_hidden"
+            android:clickable="true"
+            android:focusable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:id="@+id/partyElement8"
+            android:layout_width="101dp"
+            android:layout_height="101dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/element_hidden"
+            android:clickable="true"
+            android:focusable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:id="@+id/partyElement9"
+            android:layout_width="101dp"
+            android:layout_height="101dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/element_hidden"
+            android:clickable="true"
+            android:focusable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/partyTime"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/party_text_background"
+        android:gravity="center"
+        android:text="@string/party_time"
+        app:layout_constraintBottom_toTopOf="@+id/partyProgress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/partyProgress"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/party_text_background"
+        android:gravity="center"
+        android:text="@string/hard_party_progress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

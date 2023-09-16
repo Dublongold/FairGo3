@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/help_background">
+
+    <View
+        android:id="@+id/partyRewardWindow"
+        android:layout_width="320dp"
+        android:layout_height="482dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/daily_reward_window"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rewardButton"
+        android:layout_width="220dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/party_reward_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:textColor="@color/reward_enabled"
+        android:text="@string/party_reward_get"
+        app:layout_constraintBottom_toBottomOf="@+id/partyRewardWindow"
+        app:layout_constraintEnd_toEndOf="@+id/partyRewardWindow"
+        app:layout_constraintStart_toStartOf="@+id/partyRewardWindow"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
