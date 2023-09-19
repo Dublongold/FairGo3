@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "haveFun.inThis.onlineGame.goFair"
+    namespace = "com.gamesoffair.gocsin.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "haveFun.inThis.onlineGame.goFair"
+        applicationId = "com.gamesoffair.gocsin.app"
         minSdk = 24
         //noinspection EditedTargetSdkVersion
         targetSdk = 34
@@ -52,6 +52,8 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
     implementation("com.google.firebase:firebase-config-ktx")
     implementation("com.google.firebase:firebase-analytics-ktx")
+    // OneSignal
+    implementation("com.onesignal:OneSignal:[5.0.0, 5.99.99]")
     // Room
     implementation("androidx.room:room-runtime:2.5.2")
     ksp("androidx.room:room-compiler:2.5.2")
