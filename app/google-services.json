@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "740309614565",
-    "project_id": "fairgo-games-9c6e3",
-    "storage_bucket": "fairgo-games-9c6e3.appspot.com"
+    "project_number": "130254929893",
+    "project_id": "fairgo-games-cce9a",
+    "storage_bucket": "fairgo-games-cce9a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:740309614565:android:d2621cdf6d4e95cb30790c",
+        "mobilesdk_app_id": "1:130254929893:android:e662a0633c6eb0dd6f390c",
         "android_client_info": {
           "package_name": "com.gamesoffair.gocsin.app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAQELRUMxEG2DtyjLna9FQOQS5u4X4YbGQ"
+          "current_key": "AIzaSyCzscHtvcdK6Zr767__dxLZ8pNwOklGxBM"
         }
       ],
       "services": {
